@@ -1,12 +1,19 @@
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #F0FFF0;
+}
+h3{
+    color: teal;
 }
 #logo{
-    border: 1px solid rebeccapurple;
-    box-shadow: 3px 3px 10px;
+    border: 2px solid rebeccapurple;
+    box-shadow: 5px 5px 10px;
 }
 #set-margin{
     margin-left: 100px;
+}
+#set-margin:hover{
+    cursor: no-drop;
 }
 .fas.fa-book{
     color: wheat;
@@ -19,9 +26,10 @@ body{
     background-color: #3CB371;
     font-weight: 500;
 }
+.semester:hover{
+    background-color: #228B22;
+    cursor: pointer;
+}
 #semester-section{
     margin-left: 220px;
-}
-footer{
-    
 }
