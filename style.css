@@ -1,0 +1,27 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#logo{
+    border: 1px solid rebeccapurple;
+    box-shadow: 3px 3px 10px;
+}
+#set-margin{
+    margin-left: 100px;
+}
+.fas.fa-book{
+    color: wheat;
+}
+.semester{
+    border: 1px solid green;
+    padding: 20px;
+    padding-left: 40px;
+    color: white;
+    background-color: #3CB371;
+    font-weight: 500;
+}
+#semester-section{
+    margin-left: 220px;
+}
+footer{
+    
+}
