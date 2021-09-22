@@ -3,16 +3,22 @@ body{
     background-color: #F0FFF0;
 }
 h3{
-    color: teal;
+    color: blueviolet;
 }
 #logo{
     border: 2px solid rebeccapurple;
     box-shadow: 5px 5px 10px;
 }
-#set-margin{
-    margin-left: 100px;
+#home-btn{
+    color: crimson;
+    border-radius: 100px;
+    font-size: 20px;
+    margin-left: 225px;
 }
-#set-margin:hover{
+#icon-margin{
+    margin-left: 345px;
+}
+.icon-hover:hover{
     cursor: no-drop;
 }
 .fas.fa-book{
@@ -32,4 +38,18 @@ h3{
 }
 #semester-section{
     margin-left: 220px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: blue;
+    background-color: lightskyblue;
+    padding: 15px;
+    border-radius: 50px;
+}
+nav ul li:hover a{
+    color: white;
+    background-color: rgba(0, 0, 255, 0.700);
+}
+#top-nav{
+    margin-left: 175px;
 }

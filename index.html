@@ -21,98 +21,111 @@
 
 <body>
     <header>
-        <nav class="container navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">
-                <img id="logo" src="images/diit-logo.png" alt="logo" width="150" height="50"
-                    class="d-inline-block align-text-top">
-            </a>
-            <input type="text" class="form-control w-50 me-1 border border-primary"
+        <nav class="navbar navbar-expand-lg">
+            <button id="home-btn" class="btn btn-dark me-2"><i class="fas fa-home"></i></button>
+            <input type="text" class="form-control w-25 me-1 border border-primary"
                 placeholder="Search books, e.g. numerical" aria-label="Recipient's username"
                 aria-describedby="button-addon2" height="2000px">
-            <button class="btn btn-outline-info" type="button"><i class="fas fa-search px-2"></i></button>
-            <button id="set-margin" class="btn btn-outline-success me-1"><i class="fas fa-shopping-cart"></i></button>
-            <button class="btn btn-outline-primary" type="button" id="button-addon1"><i class="fas fa-sign-in-alt"></i>
+            <button class="btn btn-outline-info me-1" type="button"><i class="fas fa-search px-2"></i></button>
+            <button class="btn btn-outline-dark"><i class="fas fa-microphone"></i></button>
+            <button id="icon-margin" class="btn btn-outline-success me-1 icon-hover"><i
+                    class="fas fa-shopping-cart"></i></button>
+            <button class="btn btn-outline-warning me-3 icon-hover"><i class="fas fa-bell"></i></button>
+            <button class="btn btn-outline-primary me-1" type="button" id="button-addon1"><i
+                    class="fas fa-sign-in-alt"></i>
                 Login</button>
-            <button class="btn btn-dark ms-1" type="button" id="button-addon1">Sign Up</button>
+            <button class="btn btn-dark" type="button" id="button-addon1">Sign Up</button>
         </nav>
-        <section id="semester-section" class="mt-5">
-            <div class="row">
-                <div class="col-2 semester mx-3"><i class="fas fa-book"></i> 1st Semester</div>
-                <div class="col-2 semester mx-3"><i class="fas fa-book"></i> 2nd Semester</div>
-                <div class="col-2 semester mx-3"><i class="fas fa-book"></i> 3rd Semester</div>
-                <div class="col-2 semester mx-3"><i class="fas fa-book"></i> 4th Semester</div>
-            </div>
-            <div class="row">
-                <div class="col-2 semester mt-3 mx-3"><i class="fas fa-book"></i> 5th Semester</div>
-                <div class="col-2 semester mt-3 mx-3"><i class="fas fa-book"></i> 6th Semester</div>
-                <div class="col-2 semester mt-3 mx-3"><i class="fas fa-book"></i> 7th Semester</div>
-                <div class="col-2 semester mt-3 mx-3"><i class="fas fa-book"></i> 8th Semester</div>
-            </div>
-        </section>
-    </header>
-    <main>
-        <section class="d-flex align-items-center mt-5">
-            <div class="w-50">
-                <img class="img-fluid" src="images/illustration-1.png" alt="">
-            </div>
-            <div class="w-50">
-                <h3>Lorem ipsum dolor sit amet.</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit illum repellendus obcaecati,
-                    quidem harum praesentium porro accusamus, necessitatibus natus sed quia? Tempore a voluptas
-                    accusamus id tempora pariatur ea. Perspiciatis doloribus beatae a recusandae velit similique sint
-                    maiores tempore ratione iusto? Architecto voluptatem error esse aperiam accusamus tempora similique
-                    alias eligendi laborum sit deleniti ipsa molestiae ipsum fuga, tempore eveniet? Pariatur veniam
-                    quaerat voluptate incidunt. Eum nulla cum repudiandae maiores nesciunt eligendi nobis quam
-                    consequatur.</p>
-                <button class="btn btn-outline-danger">Read More</button>
-            </div>
-        </section>
 
-        <section>
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+        <nav class="container">
+            <ul id="top-nav" class="d-flex mt-3">
+                <li class="me-2 p-2 btn"><a href="#">Academic</a></li>
+                <li class="me-2 p-2 btn"><a href="#">Non-Academic</a></li>
+                <li class="me-2 p-2 btn"><a href="#">Science</a></li>
+                <li class="me-2 p-2 btn"><a href="#">Adventure</a></li>
+                <li class="me-2 p-2 btn"><a href="#">History</a></li>
+                <li class="me-2 p-2 btn"><a href="#">Others</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="semester-section" class="mt-5">
+                <div class="row">
+                    <div class="col-2 semester mx-3"><i class="fas fa-book"></i> 1st Semester</div>
+                    <div class="col-2 semester mx-3"><i class="fas fa-book"></i> 2nd Semester</div>
+                    <div class="col-2 semester mx-3"><i class="fas fa-book"></i> 3rd Semester</div>
+                    <div class="col-2 semester mx-3"><i class="fas fa-book"></i> 4th Semester</div>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="/images/book.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/images/book.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/images/book.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                    </div>
+                <div class="row">
+                    <div class="col-2 semester mt-3 mx-3"><i class="fas fa-book"></i> 5th Semester</div>
+                    <div class="col-2 semester mt-3 mx-3"><i class="fas fa-book"></i> 6th Semester</div>
+                    <div class="col-2 semester mt-3 mx-3"><i class="fas fa-book"></i> 7th Semester</div>
+                    <div class="col-2 semester mt-3 mx-3"><i class="fas fa-book"></i> 8th Semester</div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+            </section>
+    </header>
+    <section class="d-flex align-items-center mt-5">
+        <div class="w-50">
+            <img class="img-fluid" src="images/illustration-1.png" alt="">
+        </div>
+        <div class="w-50">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit illum repellendus obcaecati,
+                quidem harum praesentium porro accusamus, necessitatibus natus sed quia? Tempore a voluptas
+                accusamus id tempora pariatur ea. Perspiciatis doloribus beatae a recusandae velit similique sint
+                maiores tempore ratione iusto? Architecto voluptatem error esse aperiam accusamus tempora similique
+                alias eligendi laborum sit deleniti ipsa molestiae ipsum fuga, tempore eveniet? Pariatur veniam
+                quaerat voluptate incidunt. Eum nulla cum repudiandae maiores nesciunt eligendi nobis quam
+                consequatur.</p>
+            <button class="btn btn-outline-danger">Read More</button>
+        </div>
+    </section>
+
+    <section>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
-        </section>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/book.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/book.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/book.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
     </main>
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
