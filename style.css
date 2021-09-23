@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #F0FFF0;
 }
@@ -10,19 +11,35 @@ h3{
     box-shadow: 5px 5px 10px;
 }
 #home-btn{
-    color: crimson;
-    border-radius: 100px;
+    color: white;
+    border-radius: 50px;
     font-size: 20px;
     margin-left: 225px;
 }
-#icon-margin{
-    margin-left: 345px;
+#di{
+    color: blue;
+}
+#it{
+    color: green;
+}
+.second-bracket{
+    color: deeppink;
+}
+#di, #it, .second-bracket{
+    font-size: 40px;
+    font-family: 'Gemunu Libre';
 }
 .icon-hover:hover{
     cursor: no-drop;
 }
 .fas.fa-book{
     color: wheat;
+}
+#search-bar{
+    margin-left: 300px;
+}
+#sign-up{
+    border: 1px solid white;
 }
 .semester{
     border: 1px solid green;
@@ -38,17 +55,6 @@ h3{
 }
 #semester-section{
     margin-left: 220px;
-}
-nav ul li a{
-    text-decoration: none;
-    color: blue;
-    background-color: lightskyblue;
-    padding: 15px;
-    border-radius: 50px;
-}
-nav ul li:hover a{
-    color: white;
-    background-color: rgba(0, 0, 255, 0.700);
 }
 #top-nav{
     margin-left: 175px;
