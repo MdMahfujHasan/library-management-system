@@ -6,6 +6,9 @@ body{
 h3{
     color: blueviolet;
 }
+h4{
+    margin-left: 200px;
+}
 #logo{
     border: 2px solid rebeccapurple;
     box-shadow: 5px 5px 10px;
@@ -38,9 +41,38 @@ h3{
 #search-bar{
     margin-left: 300px;
 }
+#forgot-password{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;   
+}
+.login-signup-btn{
+    border-radius: 50px;
+    margin-left: 60px;
+}
+.fab.fa-facebook-square{
+    color: blue;
+    margin-left: 160px;
+}
+.fab.fa-twitter-square{
+    color: #1DA1F2;
+}
+.fab.fa-instagram-square{
+    color: rgb(221, 65, 65);
+}
+.fab.fa-facebook-square, .fab.fa-twitter-square, .fab.fa-instagram-square{
+    font-size: 50px;
+    border-radius: 40px;
+}
+#alternate-sign-in{
+    margin-left: 175px;
+}
 #sign-up{
     border: 1px solid white;
 }
+/* #terms-of-use{
+    color: blue;
+} */
 .semester{
     border: 1px solid green;
     padding: 20px;
