@@ -21,9 +21,11 @@ h4{
 }
 #di{
     color: blue;
+    font-weight: 900;
 }
 #it{
     color: green;
+    font-weight: 900;
 }
 .second-bracket{
     color: deeppink;
