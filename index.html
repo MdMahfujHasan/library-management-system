@@ -23,9 +23,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><span id="di">DI</span><span id="it">IT</span><span
-                        class="second-bracket">{</span><i class="fas fa-home"></i><span
-                        class="second-bracket">}</span></a>
+                <a class="navbar-brand" href="index.html"><i class="fas fa-home"></i></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -139,10 +137,16 @@
                                     <input type="password" class="form-control" id="exampleInputPassword1"
                                         placeholder="Type your password">
                                 </div>
-                                <div class="mb-3">
-                                    <a id="forgot-password" href="#">
-                                        <p class="text-end">Forgot password?</p>
-                                    </a>
+                                <div class="d-flex">
+                                    <div class="mb-4 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Remember Password</label>
+                                    </div>
+                                    <div id="forgot-password-div" class="mb-3">
+                                        <a id="forgot-password" href="#">
+                                            <p class="text-end">Forgot password?</p>
+                                        </a>
+                                    </div>
                                 </div>
                                 <div class="mb-5">
                                     <button type="submit" class="btn btn-primary w-75 login-signup-btn">LOGIN</button>
@@ -252,9 +256,93 @@
                 <div class="col-2 semester mt-3 mx-3"><i class="fas fa-book"></i> 8th Semester</div>
             </div>
         </section>
-        <section class="d-flex align-items-center mt-5">
+
+        <section class="mt-5">
+            <h1 class="center-heading mb-3"><span class="text-info">Top Rated</span> Books</h1>
+            <div class="img-gallery">
+                <div class="blog">
+                    <div class="thumbnail">
+                        <img src="/images/books/book-1.jpg" alt="">
+                    </div>
+                    <div class="blog-info">
+                        <h2>Become a Better <span class="text-danger">You</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit neque exercitationem
+                            aliquid totam doloribus labore. Deleniti quis quo distinctio illo?</p>
+                        <div class="d-flex">
+                            <div>
+                                <b>Rate This Book</b>
+                                <div class="mb-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-dark set-margin">Read More <i
+                                        class="fas fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog">
+                    <div class="thumbnail">
+                        <img src="/images/books/book-2.jpg" alt="">
+                    </div>
+                    <div class="blog-info">
+                        <h2><span class="text-warning">Minimal</span> Poster</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit neque exercitationem
+                            aliquid totam doloribus labore. Deleniti quis quo distinctio illo?</p>
+                        <div class="d-flex">
+                            <div>
+                                <b>Rate This Book</b>
+                                <div class="mb-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-dark set-margin">Read More <i
+                                        class="fas fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog">
+                    <div class="thumbnail">
+                        <img src="/images/books/book-3.jpg" alt="">
+                    </div>
+                    <div class="blog-info">
+                        <h2>Book <span class="text-primary">Philosophy</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit neque exercitationem
+                            aliquid totam doloribus labore. Deleniti quis quo distinctio illo?</p>
+                        <div class="d-flex">
+                            <div>
+                                <b>Rate This Book</b>
+                                <div class="mb-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-dark set-margin">Read More <i
+                                        class="fas fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- <section class="d-flex align-items-center mt-5">
             <div class="w-50">
-                <img class="img-fluid" src="images/illustration-1.png" alt="">
+                <img class="img-fluid" src="images/illustrations/illustration-2.png" alt="">
             </div>
             <div class="w-50">
                 <h3>Lorem ipsum dolor sit amet.</h3>
@@ -267,7 +355,7 @@
                     consequatur.</p>
                 <button class="btn btn-outline-danger">Read More</button>
             </div>
-        </section>
+        </section> -->
     </main>
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

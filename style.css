@@ -19,26 +19,14 @@ h4{
     font-size: 20px;
     margin-left: 225px;
 }
-#di{
-    color: blue;
-    font-weight: 900;
-}
-#it{
-    color: green;
-    font-weight: 900;
-}
-.second-bracket{
-    color: deeppink;
-}
-#di, #it, .second-bracket{
-    font-size: 40px;
-    font-family: 'Gemunu Libre';
-}
 .icon-hover:hover{
     cursor: no-drop;
 }
 .fas.fa-book{
     color: wheat;
+}
+.fas.fa-home{
+    font-size: 30px;
 }
 #search-bar{
     margin-left: 300px;
@@ -47,6 +35,9 @@ h4{
     text-decoration: none;
     color: black;
     font-weight: lighter;   
+}
+#forgot-password-div{
+    margin-left: 158px;
 }
 .login-signup-btn{
     border-radius: 50px;
@@ -92,4 +83,37 @@ h4{
 }
 #top-nav{
     margin-left: 175px;
+}
+.center-heading{
+    text-align: center;
+}
+.thumbnail img{
+    width: 350px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 13px;
+}
+.blog{
+    width: 30%;
+    align-items: center;
+    float: left;
+    padding: 15px;
+    margin-left: 40px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 20px gray;
+}
+.blog-info{
+    margin-top: 10px;
+    grid-auto-flow: column;
+}
+.img-gallery{
+    
+}
+.fas.fa-star, .fas.fa-star-half-alt, .far.fa-star{
+    color: #ffd900a8
+}
+.set-margin{
+    margin-top: 10px;
+    margin-left: 120px;
 }
