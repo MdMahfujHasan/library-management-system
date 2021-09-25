@@ -9,39 +9,33 @@ h3{
 h4{
     margin-left: 200px;
 }
-#logo{
-    border: 2px solid rebeccapurple;
-    box-shadow: 5px 5px 10px;
+.set-margin{
+    margin-top: 10px;
+    margin-left: 120px;
 }
-#home-btn{
-    color: white;
-    border-radius: 50px;
-    font-size: 20px;
-    margin-left: 225px;
+
+/* nav bar */
+#nav-bar:hover .fas.fa-bars{
+    color: blue;
 }
+.navbar-brand:hover .fas.fa-home{
+    color: blue;
+}
+#top-nav{
+    margin-left: 175px;
+}
+
+/* hover over cart and bell icon */
 .icon-hover:hover{
     cursor: no-drop;
 }
+
+/* font awesome style */
 .fas.fa-book{
     color: wheat;
 }
 .fas.fa-home{
     font-size: 30px;
-}
-#search-bar{
-    margin-left: 300px;
-}
-#forgot-password{
-    text-decoration: none;
-    color: black;
-    font-weight: lighter;   
-}
-#forgot-password-div{
-    margin-left: 158px;
-}
-.login-signup-btn{
-    border-radius: 50px;
-    margin-left: 60px;
 }
 .fab.fa-facebook-square{
     color: blue;
@@ -57,24 +51,58 @@ h4{
     font-size: 50px;
     border-radius: 40px;
 }
+.fas.fa-chalkboard-teacher{
+    color: orchid;
+}
+.fas.fa-chart-bar{
+    color: blueviolet;
+}
+.fas.fa-star, .fas.fa-star-half-alt, .far.fa-star{
+    color: #ffd900a8
+}
+.fab.fa-youtube{
+    color: red;
+}
+.fas.fa-book-open{
+    color: deeppink;
+}
+
+/* search bar */
+#search-bar{
+    margin-left: 300px;
+}
+
+/* inside login/signup button */
+#forgot-password{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;   
+}
+#forgot-password-div{
+    margin-left: 158px;
+}
+.login-signup-btn{
+    border-radius: 50px;
+    margin-left: 60px;
+}
 #alternate-sign-in{
     margin-left: 175px;
 }
 #sign-up{
     border: 1px solid white;
 }
+
+/* NU section */
 #nu-contents{
     margin-left: 275px;
 }
-.fas.fa-chalkboard-teacher{
-    color: orchid;
-}
+
+/* carousel section */
 .carousel-item img{
     height: 550px;
 }
-.fas.fa-chart-bar{
-    color: blueviolet;
-}
+
+/* semester section */
 .semester{
     border: 1px solid green;
     padding: 20px;
@@ -90,12 +118,13 @@ h4{
 #semester-section{
     margin-left: 220px;
 }
-#top-nav{
-    margin-left: 175px;
-}
+
+/* heading positioning */
 .center-heading{
     text-align: center;
 }
+
+/* top rated books section */
 .thumbnail img{
     width: 350px;
     margin-right: 20px;
@@ -116,13 +145,8 @@ h4{
     margin-top: 10px;
     grid-auto-flow: column;
 }
-.fas.fa-star, .fas.fa-star-half-alt, .far.fa-star{
-    color: #ffd900a8
-}
-.set-margin{
-    margin-top: 10px;
-    margin-left: 120px;
-}
+
+/* video gallery section */
 .video-container{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -135,12 +159,8 @@ iframe{
     border-radius: 10px;
     box-shadow: 10px 10px 20px gray;
 }
-.fab.fa-youtube{
-    color: red;
-}
-.fas.fa-book-open{
-    color: deeppink;
-}
+
+/* footer */
 footer{
     text-align: center;
     background-color: #0e0e0e;
