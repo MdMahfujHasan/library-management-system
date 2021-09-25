@@ -64,7 +64,7 @@ h4{
     border: 1px solid white;
 }
 #nu-contents{
-    margin-left: 270px;
+    margin-left: 275px;
 }
 .fas.fa-chalkboard-teacher{
     color: orchid;
@@ -134,4 +134,15 @@ iframe{
 }
 .fas.fa-book-open{
     color: deeppink;
+}
+footer{
+    text-align: center;
+    background-color: #0e0e0e;
+    padding: 100px;
+}
+small{
+    color: white;
+}
+p small a{
+    text-decoration: none;
 }
