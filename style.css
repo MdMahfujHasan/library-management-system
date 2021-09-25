@@ -63,9 +63,12 @@ h4{
 #sign-up{
     border: 1px solid white;
 }
-/* #terms-of-use{
-    color: blue;
-} */
+#nu-contents{
+    margin-left: 270px;
+}
+.fas.fa-chalkboard-teacher{
+    color: orchid;
+}
 .semester{
     border: 1px solid green;
     padding: 20px;
@@ -107,9 +110,6 @@ h4{
     margin-top: 10px;
     grid-auto-flow: column;
 }
-.img-gallery{
-    
-}
 .fas.fa-star, .fas.fa-star-half-alt, .far.fa-star{
     color: #ffd900a8
 }
@@ -133,5 +133,5 @@ iframe{
     color: red;
 }
 .fas.fa-book-open{
-    color: firebrick;
+    color: deeppink;
 }
