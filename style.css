@@ -117,3 +117,21 @@ h4{
     margin-top: 10px;
     margin-left: 120px;
 }
+.video-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+#video-gallery{
+    margin-left: 400px;
+}
+iframe{
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px gray;
+}
+.fab.fa-youtube{
+    color: red;
+}
+.fas.fa-book-open{
+    color: firebrick;
+}
