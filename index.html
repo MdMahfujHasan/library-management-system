@@ -14,6 +14,8 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/b00c7b5e8f.js" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <!-- link css -->
     <link rel="stylesheet" href="style.css">
     <title>Library Management System</title>
@@ -236,9 +238,56 @@
             <button class="btn btn-outline-dark mt-3"><i class="fas fa-microphone"></i></button>
         </nav>
     </header>
-    <section class="container">
-        <div id="display-meals">
 
+    <!-- carousel -->
+    <section class="container mt-5">
+        <h1 class="center-heading mb-3"><i class="fas fa-chart-bar"></i><span class="text-info"> Top Chart</span> This
+            Week</h1>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/books/book-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/books/book-2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/books/book-3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/books/book-4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/books/book-5.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/books/book-8.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </section>
 
@@ -266,10 +315,10 @@
             <div class="img-gallery">
                 <div class="blog">
                     <div class="thumbnail">
-                        <img src="/images/books/book-1.jpg" alt="">
+                        <img src="/images/books/book-7.jpg" alt="">
                     </div>
                     <div class="blog-info">
-                        <h2>Become a Better <span class="text-danger">You</span></h2>
+                        <h2>Make Your Own <span class="text-danger">Happiness</span></h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit neque exercitationem
                             aliquid totam doloribus labore. Deleniti quis quo distinctio illo?</p>
                         <div class="d-flex">
@@ -292,10 +341,10 @@
                 </div>
                 <div class="blog">
                     <div class="thumbnail">
-                        <img src="/images/books/book-2.jpg" alt="">
+                        <img src="/images/books/book-9.jpg" alt="">
                     </div>
                     <div class="blog-info">
-                        <h2><span class="text-warning">Minimal</span> Poster</h2>
+                        <h2>You Can Make Your <span class="text-warning">Cover Design</span></h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit neque exercitationem
                             aliquid totam doloribus labore. Deleniti quis quo distinctio illo?</p>
                         <div class="d-flex">
@@ -318,10 +367,10 @@
                 </div>
                 <div class="blog">
                     <div class="thumbnail">
-                        <img src="/images/books/book-3.jpg" alt="">
+                        <img src="/images/books/book-10.jpg" alt="">
                     </div>
                     <div class="blog-info">
-                        <h2>Book <span class="text-primary">Philosophy</span></h2>
+                        <h2>Head Line <span class="text-info">Brochure Design</span></h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit neque exercitationem
                             aliquid totam doloribus labore. Deleniti quis quo distinctio illo?</p>
                         <div class="d-flex">
@@ -349,13 +398,13 @@
                 Gallery</h1>
             <div class="row">
                 <div class="col-6">
-                    <iframe width="500" height="250" src="https://www.youtube.com/embed/3mXwMhMIGMA"
+                    <iframe width="500" height="300" src="https://www.youtube.com/embed/3mXwMhMIGMA"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
                 <div class="col-6">
-                    <iframe width="500" height="250" src="https://www.youtube.com/embed/PguCUdB5gqU"
+                    <iframe width="500" height="300" src="https://www.youtube.com/embed/PguCUdB5gqU"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
@@ -363,13 +412,13 @@
             </div>
             <div class="row mt-5">
                 <div class="col-6">
-                    <iframe width="500" height="250" src="https://www.youtube.com/embed/Jdj-Wl9eUac"
+                    <iframe width="500" height="300" src="https://www.youtube.com/embed/Jdj-Wl9eUac"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
                 <div class="col-6">
-                    <iframe width="500" height="250" src="https://www.youtube.com/embed/mmEDMOZnXoY"
+                    <iframe width="500" height="300" src="https://www.youtube.com/embed/mmEDMOZnXoY"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
