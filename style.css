@@ -94,6 +94,9 @@ h4{
 .fab.fa-readme{
     color: rebeccapurple;
 }
+.far.fa-gem{
+    color: #4335ff;
+}
 
 /* search bar */
 #search-bar{
@@ -145,6 +148,22 @@ h4{
 }
 #semester-section{
     margin-left: 220px;
+}
+
+/* display user section */
+#top-readers{
+    margin-left: 120px;
+}
+.user-container{
+    margin: 10px;
+    padding: 20px;
+    color: indigo;
+    background-color: lightgray;
+    border-radius: 10px;
+    background-image: linear-gradient(lightblue, violet);
+}
+.display-user-sec{
+    margin-left: 275px;
 }
 
 /* heading positioning */
