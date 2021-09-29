@@ -95,9 +95,14 @@ h4{
     color: rebeccapurple;
 }
 .far.fa-gem{
-    color: #4335ff;
+    color: #4335ff5d;
 }
-
+.fas.fa-map-marker-alt, .fas.fa-envelope-open-text, .fas.fa-phone-volume{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-right: 20px;
+    color: #0000ffcc;
+}
 /* search bar */
 #search-bar{
     margin-left: 300px;
@@ -207,6 +212,13 @@ iframe{
     box-shadow: 10px 10px 20px gray;
 }
 
+/* comment section */
+.col-12.text-center button{
+    border-radius: 20px;
+}
+.row-4.d-flex p{
+    color: #5b6064;
+}
 /* footer */
 footer{
     text-align: center;
