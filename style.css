@@ -24,6 +24,26 @@ h4{
 #top-nav{
     margin-left: 175px;
 }
+.offcanvas-header h3{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.850);
+    padding: 10px;
+    margin-right: 200px;
+    margin-top: 13px;
+    border-radius: 50px;
+}
+.offcanvas-body a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50px;
+}
+.offcanvas-body a:hover{
+    color: white;
+    background-color: #000000cc;
+}
 
 /* hover over cart, bell, arrow icon */
 .icon-hover:hover{
@@ -95,13 +115,26 @@ h4{
     color: rebeccapurple;
 }
 .far.fa-gem{
-    color: #4335ff5d;
+    color: #4335ff;
+    padding: 10px;
+    box-shadow: 5px 5px 15px blue;
+}
+#top-readers:hover .far.fa-gem{
+    color: tomato;
+    transform: rotate(-5deg);
 }
 .fas.fa-map-marker-alt, .fas.fa-envelope-open-text, .fas.fa-phone-volume{
     font-size: 35px;
     margin-top: 10px;
     margin-right: 20px;
     color: #0000ffcc;
+}
+.far.fa-arrow-alt-circle-up{
+    font-size: 50px;
+    color: black;
+}
+.far.fa-arrow-alt-circle-up:hover{
+    color: darkslateblue;
 }
 /* search bar */
 #search-bar{
