@@ -178,7 +178,7 @@ h4{
     height: 230px;
 }
 .book-image:hover{
-    transition: .5s ease-out;
+    transition: 0.5s ease-out;
     transform: scale(1.4);
     border: 1px solid black;
     box-shadow: 5px 5px 10px gray;
@@ -315,5 +315,25 @@ p a{
     text-decoration: none;
 }
 p a:hover{
+    text-decoration: underline;
+}
+
+/* select section */
+.select{
+    margin-left: 120px;
+}
+.select a{
+    color: #0000ffb3;
+    font-size: 4em;
+    padding: 50px;
+    background-image: linear-gradient(to right, #b58bdb, white);
+    border-radius: 10px;
+    box-shadow: 7px 7px 25px gray;
+    text-decoration: none;
+    width: 500px;
+}
+.select a:hover{
+    transition: 0.5s ease-out;
+    transform: scale(1.05);
     text-decoration: underline;
 }

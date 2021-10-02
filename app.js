@@ -52,8 +52,9 @@ const displayBooks = books => {
              </div>
              <hr>
              <p id="description">${book.description}</p>
-             <button class="buy-now btn btn-outline-dark">Borrow This Book</button>
-          <button id="details-btn" class="btn btn-outline-dark">Details</button>
+             <button class="btn btn-outline-dark">Buy Now</button>
+             <button class="btn btn-outline-dark">Borrow</button>
+             <button class="btn btn-outline-dark">Details</button>
         </div>
         `;
         document.getElementById("display-books").appendChild(div);
