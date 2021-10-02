@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/b00c7b5e8f.js" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Display Books</title>
+    <style>
+        .fas.fa-backward,
+        .fas.fa-laptop-house {
+            font-size: 2em;
+        }
+
+        .fas.fa-backward:hover {
+            color: blue;
+        }
+
+        .fas.fa-laptop-house:hover {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <section class="mb-5">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item d-flex">
+                            <a class="nav-link active" aria-current="page" href="/index.html"><i
+                                    class="fas fa-backward"></i></a>
+                            <a class="nav-link active" aria-current="page" href="/display-books.html"><i
+                                    class="fas fa-laptop-house"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- display books section -->
+    <section class="container">
+
+        <!-- search bar -->
+        <div class="input-group mb-5 w-50 mx-auto">
+            <input type="text" class="form-control w-50 me-1" placeholder="Search books, e.g. numerical"
+                aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-danger rounded px-4" type="button" id="button-addon2"><i
+                    class="fas fa-search"></i></button>
+        </div>
+
+        <!-- display books -->
+        <div id="display-books">
+
+        </div>
+    </section>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+<!-- footer -->
+<footer class="mt-5" id="contact">
+    <div class="mb-2">
+        <h5 id="contact-us">Contact Us</h5>
+    </div>
+    <div class="mb-2">
+        <a class="me-2" href="#"><i class="fab fa-facebook"></i></a>
+        <a class="me-2" href="#"><i class="fab fa-twitter"></i></a>
+        <a class="me-2" href="#"><i class="fab fa-pinterest"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <div id="goto-contact-us">
+        <p>© 2017-present <a href="#">DIITLibrary</a> all rights reserved.</p>
+    </div>
+</footer>
+
+</html>
