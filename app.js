@@ -52,8 +52,8 @@ const displayBooks = books => {
              </div>
              <hr>
              <p id="description">${book.description}</p>
-             <button class="btn btn-outline-dark">Buy Now</button>
-             <button class="btn btn-outline-dark">Borrow</button>
+             <button class="btn btn-outline-primary">Buy Now</button>
+             <button class="btn btn-outline-success">Borrow</button>
              <button class="btn btn-outline-dark">Details</button>
         </div>
         `;

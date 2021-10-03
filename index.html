@@ -134,10 +134,58 @@
                     </ul>
                 </div>
             </div>
-            <button onclick="unavilableFeature()" id="icon-margin" class="btn btn-outline-success me-1 icon-hover"><i
-                    class="fas fa-shopping-cart"></i></button>
-            <button onclick="unavilableFeature()" class="btn btn-outline-warning me-3 icon-hover"><i
-                    class="fas fa-bell"></i></button>
+
+            <!-- cart and bell modal -->
+
+            <!-- cart button trigger modal -->
+            <button type="button" class="btn btn-outline-success me-1 icon-hover" data-bs-toggle="modal"
+                data-bs-target="#cart"><i class="fas fa-shopping-cart"></i></button>
+
+            <!-- cart modal -->
+            <div class="modal fade" id="cart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-light p-2 rounded-3 me-2" id="exampleModalLabel">
+                                Purchased Items</h5>
+                            <i class="fas fa-heart-broken"></i>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            This feature is not available yet. Please check back in the future.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger">Boo</button>
+                            <button type="button" class="btn btn-primary">Okay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- bell button trigger modal -->
+            <button type="button" class="btn btn-outline-warning me-3 icon-hover" data-bs-toggle="modal"
+                data-bs-target="#bell"><i class="fas fa-bell"></i></button>
+
+            <!-- bell modal -->
+            <div class="modal fade" id="bell" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-light p-2 rounded-3 me-2" id="exampleModalLabel">Notifications
+                            </h5>
+                            <i class="fas fa-heart-broken"></i>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            This feature is not available yet. Please check back in the future.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger">Boo</button>
+                            <button type="button" class="btn btn-primary">Okay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- login button trigger modal -->
             <button type="button" id="login" class="btn btn-outline-primary me-1" data-bs-toggle="modal"
@@ -263,7 +311,7 @@
     <main>
         <!-- select section -->
         <section class="container select row mt-5">
-            <a class="col-6 text-center me-5" href="#">Read</a>
+            <a class="col-6 text-center me-5" href="#goto-top-chart">Read</a>
             <a class="col-6 text-center" href="/display-books.html">Borrow</a>
         </section>
 

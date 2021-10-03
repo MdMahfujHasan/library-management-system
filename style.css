@@ -45,12 +45,15 @@ h4{
     background-color: #000000cc;
 }
 
-/* hover over cart, bell, arrow icon */
+/* click/hover over cart, bell, arrow icon */
 .icon-hover:hover{
     cursor: no-drop;
 }
 .accordion-item:hover .fas.fa-angle-double-right{
     transform: scale(1.1);
+}
+.modal-header h5{
+    background-image: linear-gradient(to right, blue, #f959ff);
 }
 
 /* font awesome style */
@@ -136,6 +139,11 @@ h4{
 .far.fa-arrow-alt-circle-up:hover{
     color: darkslateblue;
 }
+.fas.fa-heart-broken{
+    font-size: 2em;
+    color: #a200ff;
+}
+
 /* search bar */
 #search-bar{
     margin-left: 300px;
@@ -328,7 +336,7 @@ p a:hover{
     padding: 50px;
     background-image: linear-gradient(to right, #b58bdb, white);
     border-radius: 10px;
-    box-shadow: 7px 7px 25px gray;
+    box-shadow: 5px 5px 25px gray;
     text-decoration: none;
     width: 500px;
 }
