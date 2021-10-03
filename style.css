@@ -13,7 +13,9 @@ h4{
     margin-top: 10px;
     margin-left: 120px;
 }
-
+P{
+    color: rgba(0,0,0,0.65);
+}
 /* nav bar */
 #nav-bar:hover .fas.fa-bars{
     color: blue;
@@ -130,18 +132,34 @@ h4{
     font-size: 35px;
     margin-top: 10px;
     margin-right: 20px;
-    color: #0000ffcc;
+    color: #ff0055;
+}
+.fas.fa-map-marker-alt:hover, .fas.fa-envelope-open-text:hover, .fas.fa-phone-volume:hover{
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+    transform: scale(1.2);
+}
+.fas.fa-phone-volume:hover{
+    transform: rotate(-30deg) scale(1.2);
 }
 .far.fa-arrow-alt-circle-up{
     font-size: 50px;
-    color: black;
+    color: #4b4b4b;
 }
 .far.fa-arrow-alt-circle-up:hover{
-    color: darkslateblue;
+    transition: 0.5s;
+    transform: rotate(360deg);
+    color: black;
 }
 .fas.fa-heart-broken{
     font-size: 2em;
     color: #a200ff;
+}
+.fas.fa-share{
+    font-size: 0.8em;
+}
+.fas.fa-laptop-code{
+    color: blueviolet;
 }
 
 /* search bar */
@@ -310,22 +328,6 @@ iframe{
     color: #5b6064;
 }
 
-/* footer */
-footer{
-    text-align: center;
-    background-color: #0e0e0e;
-    padding: 100px;
-}
-footer p, #contact-us{
-    color: #dadada;
-}
-p a{
-    text-decoration: none;
-}
-p a:hover{
-    text-decoration: underline;
-}
-
 /* select section */
 .select{
     margin-left: 120px;
@@ -343,5 +345,27 @@ p a:hover{
 .select a:hover{
     transition: 0.5s ease-out;
     transform: scale(1.05);
+    text-decoration: underline;
+}
+
+/* footer */
+footer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    background-color: #0e0e0e;
+    padding: 100px;
+}
+footer p, #contact-us{
+    color: #dadada;
+}
+#developers{
+    font-size: 1.5em;
+    text-decoration: none;
+}
+p a{
+    text-decoration: none;
+}
+p a:hover, #developers:hover{
     text-decoration: underline;
 }
