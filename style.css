@@ -132,7 +132,8 @@ P{
     font-size: 35px;
     margin-top: 10px;
     margin-right: 20px;
-    color: #ff0055;
+    color: rgb(255, 0, 98);
+    text-shadow: 5px 5px 7px rgb(160, 160, 160);
 }
 .fas.fa-map-marker-alt:hover, .fas.fa-envelope-open-text:hover, .fas.fa-phone-volume:hover{
     cursor: pointer;
@@ -150,10 +151,6 @@ P{
     transition: 0.5s;
     transform: rotate(360deg);
     color: black;
-}
-.fas.fa-heart-broken{
-    font-size: 2em;
-    color: #a200ff;
 }
 .fas.fa-share{
     font-size: 0.8em;
