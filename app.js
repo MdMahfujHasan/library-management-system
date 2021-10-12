@@ -1,8 +1,3 @@
-// alert message 
-const unavilableFeature = () => {
-    alert("This feature is not available yet, please check back in the future.");
-}
-
 // fetch user
 const url = `https://jsonplaceholder.typicode.com/users`
 fetch(url)
